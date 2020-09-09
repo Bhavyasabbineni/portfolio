@@ -27,9 +27,9 @@ const ExperienceCard = ({ company, description, icon, designation }) => {
                     }
 
                 </div>
-                <Typography className={classes.heading}>
+                {/* <Typography className={classes.heading}>
                     {company}
-                </Typography>
+                </Typography> */}
             </Grid>
             <Grid
                 className={classes.container}
