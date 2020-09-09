@@ -76,7 +76,7 @@ const Footer = () => {
                     <Grid lg={4} md={4} sm={12} xs={12} item>
                         <div className={classes.textRight}>
                             <Typography className={classes.copyRightText}>
-                                Made with <FavoriteBorder className={classes.heartIcon} /> by Bhavya Sajid in 2020.
+                                Made with <FavoriteBorder className={classes.heartIcon} /> by Bhavya in 2020.
                         </Typography>
                         </div>
                     </Grid>
