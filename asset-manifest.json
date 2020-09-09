@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5af26ffb.chunk.css",
+    "main.js": "/portfolio/static/js/main.cf0f738b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cf0f738b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.98691779.chunk.js": "/portfolio/static/js/2.98691779.chunk.js",
+    "static/js/2.98691779.chunk.js.map": "/portfolio/static/js/2.98691779.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.3379726d0bef8499f0992fa53fe668ee.js": "/portfolio/precache-manifest.3379726d0bef8499f0992fa53fe668ee.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.5af26ffb.chunk.css.map": "/portfolio/static/css/main.5af26ffb.chunk.css.map",
+    "static/js/2.98691779.chunk.js.LICENSE.txt": "/portfolio/static/js/2.98691779.chunk.js.LICENSE.txt",
+    "static/media/ATT.PNG": "/portfolio/static/media/ATT.dc6f9adb.PNG",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.36ef41fb.png",
+    "static/media/codememory.png": "/portfolio/static/media/codememory.2b18a2b8.png",
+    "static/media/davyschess.png": "/portfolio/static/media/davyschess.575c519b.png",
+    "static/media/easyq.png": "/portfolio/static/media/easyq.349e4a7d.png",
+    "static/media/landing.jpg": "/portfolio/static/media/landing.61e3a393.jpg",
+    "static/media/meraj.png": "/portfolio/static/media/meraj.84a82a24.png",
+    "static/media/r6pro.png": "/portfolio/static/media/r6pro.4e273792.png",
+    "static/media/roomy-mobile.png": "/portfolio/static/media/roomy-mobile.9760dbb7.png",
+    "static/media/roomy.png": "/portfolio/static/media/roomy.501c2695.png",
+    "static/media/sneakerlog.png": "/portfolio/static/media/sneakerlog.9ea202df.png",
+    "static/media/waffle-world.png": "/portfolio/static/media/waffle-world.206bc8d0.png",
+    "static/media/winter-sale.png": "/portfolio/static/media/winter-sale.b0083e99.png",
+    "static/media/ximages.png": "/portfolio/static/media/ximages.a6cdfdce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.98691779.chunk.js",
+    "static/css/main.5af26ffb.chunk.css",
+    "static/js/main.cf0f738b.chunk.js"
+  ]
+}
