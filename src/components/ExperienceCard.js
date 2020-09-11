@@ -51,6 +51,7 @@ const ExperienceCard = ({ company, description, icon, designation }) => {
                             </>
                         )}
                         <li className={classes.footerLink}>{'Coordinating with QA engineers and project managers on analysing requirements and execution plans. Involved in the complete DevOps cycle.'}</li>
+                        <li className={classes.footerLink}>{'Delivered notification from mutiple channels like push, email, voice, Teaxt based on the customers itenary'}</li>
                     </ul>
                 </div>
             </Grid>

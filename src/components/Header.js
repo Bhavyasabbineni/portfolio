@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Typed from 'react-typed';
 import Colors from '../styles/Colors';
+import ParticlesBg from "particles-bg";
 
 import { makeStyles, Button } from '@material-ui/core';
 
@@ -11,16 +12,21 @@ const Header = (props) => {
 
     return (
         <>
+            <div className={classes.parent}>
+            <ParticlesBg  type="cobweb" bg={true}/>
             <div className={classes.parent}
+            
                 style={{
-                    backgroundImage: `url(${require("../assets/images/landing.jpg")})`,
+                    //backgroundImage: `url(${require("../assets/images/landing.jpg")})`,
                     backgroundAttachment: 'fixed',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                 }}
+               
             >
             </div>
+           </div>
             <Container>
                 <div className={classes.centerTextContainer}>
                     <Typography className={classes.centerText}>
@@ -28,7 +34,7 @@ const Header = (props) => {
                         <br />
                         <Typed
                             strings={["web applications.", "mobile applications.", "e-commerce stores.", "landing pages.", "corporate websites.", "User Interfaces."]}
-                            startDelay={300}
+           n                 startDelay={300}
                             typeSpeed={120}
                             loop={true}
                             loopCount={Infinity}
@@ -66,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
         left: '50%',
         transform: 'translate(-50%,-50%)',
         textAlign: 'center',
-        color: '#FFFFFF',
+        color: 'black',
         zIndex: 100,
 
         [theme.breakpoints.down('md')]: {
@@ -112,7 +118,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
         minHeight: '70vh',
-        maxHeight: '999px',
+        maxHeight: '990px',
         overflow: 'hidden',
         position: 'relative',
         width: '100%',
@@ -122,19 +128,19 @@ const useStyles = makeStyles((theme) => ({
     },
     hireButton: {
         textTransform: "capitalize",
-        color: "white",
-        borderColor: "white",
+        color: "black",
+        borderColor: "black",
         borderWidth: "2px",
         fontSize: "1.5em",
-        fontWeight: 500,
+        fontWeight: "bold",
         whiteSpace: "noWrap",
         minWidth: 200,
 
         "&:hover": {
-            color: "black",
+            color: "white",
             borderWidth: "2px",
-            borderColor: "white",
-            background: "white"
+            borderColor: "black",
+            background: "black"
         },
 
         [theme.breakpoints.up('sm')]: {

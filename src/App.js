@@ -78,7 +78,7 @@ const App = () => {
           </Typography>
           <div className={classes.border} />
           <Typography className={classes.description}>
-            I've got more than 6 years of experience in software development.
+            I've got more than 4 years of experience in software development.
           </Typography>
 
           <Grid
@@ -91,7 +91,7 @@ const App = () => {
               designation={"React.JS Developer"}
             />
 
-            <ExperienceCard
+            {/* <ExperienceCard
               company={"ATT"}
               designation={"Senior Front End Developer"}
             />
@@ -99,7 +99,7 @@ const App = () => {
             <ExperienceCard
               company={"Qualcomm"}
               designation={"Senior Front End Developer"}
-            />
+            /> */}
 
            
           </Grid>
